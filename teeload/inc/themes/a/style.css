@@ -1,0 +1,188 @@
+.topstrip {
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.topstrip .right,
+.topstrip .center,
+.topstrip .left {
+	height: 100px;
+	position: fixed;
+}
+
+.topstrip .right {
+	right: 0;
+}
+
+.topstrip .center {
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.header {
+	margin: 0;
+	font-size: 45px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+.slogan {
+	margin: 0;
+	font-size: 25px;
+	margin-left: 20px;
+	font-weight: 300;
+	color: rgb(220, 220, 220);
+}
+
+.userdata,
+.profilepic {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.profilepic img {
+	height: 74px;
+	margin-top: 12px;
+	border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.userdata p {
+	margin: 0;
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+
+.userdata p:first-child {
+	margin-top: 25px;
+}
+
+.bottom {
+	position: fixed;
+	bottom: 20px;
+	left: 5px;
+}
+
+.bottom .bottomholder .inlineholder {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+}
+
+.title {
+	background-color: rgba(0, 0, 0, .4);
+	font-size: 20px;
+	font-weight: 400;
+	padding: 12px 15px;
+}
+
+.bottom .bottomholder .inlineholder .content {
+	padding: 10px;
+}
+
+.bottom .bottomholder .inlineholder .content p {
+	margin: 12px 15px;
+	font-size: 16px;
+}
+
+.bottom .bottomholder .inlineholder,
+.main-section .about,
+.main-section .cbox,
+.main-section .staff {
+	background-color: rgba(0, 0, 0, .5);
+}
+	
+.main-section {
+	position: fixed;
+	top: 115px;
+	left: 20px;
+}
+
+.innerholder {
+	margin: auto;
+}
+
+.main-section .cbox {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 350px;
+	margin-right: 20px;
+}
+
+.main-section .cbox table tr td:first-child {
+	background-color: rgba(0, 0, 0, .4);
+	padding: 10px 15px;
+}
+
+.main-section .cbox table tr td:last-child {
+	padding: 10px 15px;
+	color: rgb(220, 220, 220);
+}
+
+.main-section .about {
+	font-size: 18px;
+	color: rgb(220, 220, 220);
+	width: 400px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.main-section .about .content {
+	padding: 13px 15px;
+	line-height: 1.5em;
+}
+
+.main-section .staff {
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	min-width: 250px;
+}
+
+.main-section .staff {
+	color: rgb(240, 240, 240);
+}
+
+.main-section .staff table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main-section .staff table td:first-child {
+	padding: 2px 0 0 4px;
+}
+
+.main-section .staff table td img {
+	height: 48px;
+}
+
+.main-section .staff table td p {
+	margin: 0 15px 0 10px;
+}
+
+.main-section .staff table td p:first-child {
+	color: rgb(240, 240, 240);
+	font-size: 18px;
+}
+
+.main-section .staff table td p:last-child {
+	color: rgb(210, 210, 210);
+}
+
+.right {
+	font-size: 20px;
+	padding-top: 35px;
+	padding-right: 20px;
+}
+
+span {
+	color: rgb(220, 220, 220);
+}

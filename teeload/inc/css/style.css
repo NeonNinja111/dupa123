@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	text-shadow: -1px -1px 4px #000;
+	transition: all .3s ease;
+}
+
+body {
+	background: black;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: rgb(240, 240, 240);
+}
+
+#background1,
+#background2,
+#background3 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	transition: none;
+}
+
+#background1 {
+	z-index: -4;
+}
+#background2 {
+	z-index: -5;
+}
+
+#background3 {
+	z-index: -3;
+}
